@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Nima404</title>
+    <style>
+        .half-square {
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border-top: 2px solid white;
+            border-right: 2px solid white;
+            clip-path: polygon(0 0, 100% 0, 100% 100%);
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+<nav class="bg-black">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+            <div class="flex items-center">
+                <div class="flex-shrink-0">
+                    <a href="index.html">
+                        <div class="flex flex-col items-center pt-5">
+                            <div class="flex items-center space-x-0">
+                                <div class="text-xl font-bold">NIMA</div>
+                                <div class="half-square"></div>
+                            </div>
+                            <div class="text-xl font-bold">404</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="block">
+                <div class="ml-10 flex items-baseline space-x-0">
+                    <a href="index.html" class="px-5 py-5 pt-12 text-sm font-medium">vidéos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="py-1">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+        <!-- large image -->
+        <div class="col-span-1 md:col-span-2 w-full">
+            <img src="img/1.webp" alt="Large Photo" class="w-full h-auto">
+        </div>
+        <!-- standard -->
+        <div class="w-full col-span-1">
+            <img src="img/2.webp" alt="Photo 1" class="w-full h-auto">
+            <img src="img/6.webp" alt="Photo 1" class="w-full h-auto">
+        </div>
+        <!--vertical -->
+        <div class="w-full col-span-1">
+            <img src="img/3.webp" alt="Photo 2" class="w-full h-auto">
+        </div>
+        <div class="w-full col-span-1">
+            <img src="img/large.webp" alt="Photo 2" class="w-full h-auto">
+        </div>
+        <!-- small square -->
+        <div class="w-full col-span-1 sm:col-span-1">
+            <img src="img/4.webp" alt="Small Square Photo" class="w-full h-auto">
+        </div>
+        <!-- large image -->
+        <div class="col-span-1 sm:col-span-2 w-full">
+            <img src="img/9.webp" alt="Another Large Photo" class="w-full h-auto">
+        </div>
+        <div class="w-full col-span-1">
+            <img src="img/7.webp" alt="Photo 1" class="w-full h-auto">
+            <img src="img/8.webp" alt="Photo 1" class="w-full h-auto">
+        </div>
+    </div>
+</main>
+</body>
+</html>
